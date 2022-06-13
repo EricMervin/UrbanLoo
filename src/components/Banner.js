@@ -67,7 +67,7 @@ export default function Component() {
       >
           <source src="/hyd/video.mp4" type="video/mov" />
       </video> */}
-      <Box sx={{marginTop: '30vh',pt: 30, display: 'flex', justifyContent: 'center', flexDirection: {md: 'row', sm: 'column', xs: 'column'}, alignItems: 'center'}}>
+      <Box sx={{marginTop: '35vh',pt: 30, display: 'flex', justifyContent: 'center', flexDirection: {md: 'row', sm: 'column', xs: 'column'}, alignItems: 'center'}}>
         <Button size="large" variant="contained" sx={buttonStyles}>Learn More</Button>
         <Button size="large" variant="contained" sx={buttonStyles}>Contact Us</Button>
       </Box>
