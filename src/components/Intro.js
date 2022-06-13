@@ -51,8 +51,8 @@ export default function Component() {
       <Typography variant="h2" sx={{color: 'white', mt: 2, fontWeight: '500', fontSize: {md: 75, sm: 20, xs: 30}}}>Filled With Experience.</Typography>
       <Grid container spacing={matches? 5: 1} justifyContent="center" alignItems="center" sx={{pt: {md: 20, sm: 10, xs: 5}, width: '100%', px: 0, alignSelf: 'center', zIndex: 1}}>
         <Grid item md={4} xs={6} sx={{display: 'flex', flexDirection: 'column', alignItems: 'center',}}>
-          <Intro heading="A FUNDAMENTAL" bold="RIGHT" img="/intro1.png">
-            It’s every citizens right to have access to safe & hygienic state-of-the-art toilet facilities in public places. Urban Loo leads the way.
+          <Intro heading="A HUMAN" bold="NEED" img="/intro4.png">
+            The presence of state-of-the-art toilet facilities in public places is a feel good factor & Urban Loo leads the way.
           </Intro>
         </Grid>
         <Grid item md={4} xs={6} sx={{display: 'flex', flexDirection: 'column', alignItems: 'center', mt: {md: -15}}}>

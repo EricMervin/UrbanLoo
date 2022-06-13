@@ -22,8 +22,10 @@ export default function Location() {
         <Grid item md={4.5} sx={{display: 'flex', alignItems: {md: 'flex-start', xs: 'center'}, mx: 0, justifyContent: {md: 'flex-start', xs: 'center'}}}>
           <iframe width="600" height="450" style={{border: 0, borderRadius: 10}} loading="lazy" allowfullscreen src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3543.844393249029!2d78.49994551461407!3d17.434091406045834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdbcf5dcd54aecf%3A0xe16a19b417174fb0!2sSecunderabad%20Railway%20Station%20Rd%2C%20Railway%20Officer%20Colony%2C%20Botiguda%2C%20Bhoiguda%2C%20Hyderabad%2C%20Telangana%20500003!5e1!3m2!1sen!2sin!4v1650271231604!5m2!1sen!2sin"></iframe>
         </Grid>
-        <Grid item sx={{display: 'flex', alignItems: {md: 'flex-start', xs: 'center'}, mx: 0, justifyContent: {md: 'flex-start', xs: 'center'}}}>
-          <img src="locationSkeleton.png" width="90%"/>
+        <Grid item sx={{display: 'flex', flexDirection: 'column', alignItems: {md: 'flex-start', xs: 'flex-start'}, mx: 0, justifyContent: {md: 'flex-start', xs: 'center'}}}>
+        <Typography variant="h6" sx={{mb: {md:-3.5, sm: -2.5, xs: -2.5}, textTransform: 'uppercase', fontWeight: '100', mx: 1, fontSize: {md: 36, sm: 27, xs: 27}}}>Secunderabad Railway Station</Typography> <br/>
+        <Typography variant="h6" sx={{mb: {md:-1, sm: -.5, xs: -.5},textTransform: 'capitalize', fontWeight: '100', mx: 1, fontSize: {md: 24, sm: 18, xs: 18}}}>Railway Officer Colony, Botiguda, Bhoiguda, <br/> </Typography>
+        <Typography variant="h6" sx={{textTransform: 'capitalize', fontWeight: '100', mx: 1, fontSize: {md: 24, sm: 18, xs: 18}}}>Hyderabad, Telangana 500003</Typography>
         </Grid>
       </Grid>
     </Box>

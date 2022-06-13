@@ -21,13 +21,13 @@ export default function Contact({ id }) {
         Mordernizing India <strong>Together</strong>
       </Typography>
       <Box sx={{my: 3, width: {md: '30%', sm: '90%', xs: '100%'} }}>
-        <Button startIcon={<MailOutlineIcon />} variant="contained" sx={{bgcolor: "#464646", px: 2, borderRadius: 20, textTransform: 'none', fontSize: {md: 20, xs: 20}, justifyContent: 'space-evenly'}} fullWidth elevation={0}>
+        <Button startIcon={<MailOutlineIcon sx={{ml: 2.2}}/>} variant="contained" sx={{bgcolor: "#464646", px: 2, borderRadius: 20, textTransform: 'none', fontSize: {md: 20, xs: 20}, justifyContent: 'space-evenly'}} fullWidth elevation={0}>
           contact@urbanloo.com
         </Button>
       </Box>
       <Box sx={{width: {md: '30%', sm: '90%', xs: '100%'}, mb: 3}}>
         <Button startIcon={<PhoneIcon />} variant="contained" sx={{bgcolor: "#464646", px: 2, borderRadius: 20, textTransform: 'none', fontSize: {md: 20, xs: 20}, justifyContent: 'space-evenly'}} fullWidth elevation={0}>
-          +91 9999 99999
+          +91 99632 66466
         </Button>
       </Box>
       <Box sx={{width: {md: '30%', sm: '90%',xs: '100%'}, textAlign: {md: 'center', xs: 'left'}}}>
