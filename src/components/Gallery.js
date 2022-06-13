@@ -2,9 +2,9 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Images from './Images'
 
-export default function Gallery() {
+export default function Gallery({id}) {
   return (
-    <Box sx={{minHeight: '100vh', bgcolor: '#F5F5F5', p: 5}}>
+    <Box id={id}sx={{minHeight: '100vh', bgcolor: '#F5F5F5', p: 5}}>
       <Typography variant="h3" color="primary">
         The Urban Loo
       </Typography>

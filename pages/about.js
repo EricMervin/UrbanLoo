@@ -9,7 +9,7 @@ export default function AboutPage() {
     <Box>
       <TopBar />
       <About />
-      <Gallery />
+      <Gallery id="gallery"/>
     </Box>
   )
 }

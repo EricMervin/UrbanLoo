@@ -18,9 +18,9 @@ function Statement() {
   )
 }
 
-export default function Mission() {
+export default function Mission({id}) {
   return (
-    <Box sx={{px: {md: 10, sm: 5, xs: 2}, mt: -10, pb: 10, zIndex: 1, position: 'relative', background: 'url("/missionBg.png")', backgroundPosition: {md: '20% 40%', xs: '20% 20%'}, backgroundRepeat: 'no-repeat', backgroundSize: {md: '100% 70%', xs: 'auto auto'}}}>
+    <Box id={id} sx={{px: {md: 10, sm: 5, xs: 2}, mt: -10, pb: 10, zIndex: 1, position: 'relative', background: 'url("/missionBg.png")', backgroundPosition: {md: '20% 40%', xs: '20% 20%'}, backgroundRepeat: 'no-repeat', backgroundSize: {md: '100% 70%', xs: 'auto auto'}}}>
       <Statement />
 
       <Box sx={{display: 'flex', alignItems: 'center', justifyContent: 'center', py: {md: 10, sm: 5, xs: 2}, mt: 5, mb: {md: 4, sm: 2, xs: 1}, textAlign: 'center', flexDirection: 'column'}}>

@@ -15,12 +15,12 @@ export default function Index() {
     <Box sx={{maxWidth: '100%', overflowX: 'hidden'}}>
       <TopBar />
       <Banner />
-      <Intro />
-      <Mission />
-      <Feature />
+      <Intro id="intro"/>
+      <Mission id="mission"/>
+      <Feature id="feature"/>
       <News />
       <Contact id="contact"/>
-      <Footer />
+      <Footer id="footer"/>
     </Box>
   );
 }

@@ -4,17 +4,17 @@ import Typography from '@mui/material/Typography'
 import Grid from '@mui/material/Grid'
 
 
-export default function Footer() {
+export default function Footer({id}) {
   const links = {
     'Home': '#',
-    'About': '#',
-    'Contact': '#',
-    'Gallery': '#',
+    'About': '#about',
+    'Contact': '#contact',
+    'Gallery': '/about#gallery',
     'Legal': '#',
     'Privacy Policy': '#',
   }
   return (
-    <Box sx={{minHeight: '30vh', bgcolor: 'black', p: {md: 10, xs: 5}, px: 10, color: 'white'}}>
+    <Box id={id} sx={{minHeight: '30vh', bgcolor: 'black', p: {md: 10, xs: 5}, px: 10, color: 'white'}}>
       <Grid container justifyContent="space-between" flexDirection={{md: 'row', xs: 'column'}}>
         <Grid item>
           <Typography variant="h5" sx={{fontSize: {md: 25, xs: 20}}}><b>Quick</b> Links</Typography>

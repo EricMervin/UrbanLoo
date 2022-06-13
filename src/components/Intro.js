@@ -3,7 +3,6 @@ import Typography from '@mui/material/Typography'
 import Grid from '@mui/material/Grid'
 import useMediaQuery from '@mui/material/useMediaQuery';
 
-
 function Intro({heading, bold, children, img}) {
   return (
     <Box sx={{

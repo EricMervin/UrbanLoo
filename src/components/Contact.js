@@ -32,7 +32,7 @@ export default function Contact({ id }) {
       </Box>
       <Box sx={{width: {md: '30%', sm: '90%',xs: '100%'}, textAlign: {md: 'center', xs: 'left'}}}>
         {/* <Typography variant="body2" sx={{ color: "#A8A8A8", ml: {xs: 2}, fontSize: {md: 20, xs: 15}}}>Take me there</Typography> */}
-        <Button startIcon={<LocationOnIcon />} variant="contained" sx={{bgcolor: "#464646", px: 2, borderRadius: 20, textTransform: 'none', fontSize: {md: 20, xs: 20}, justifyContent: 'space-evenly'}} fullWidth elevation={0}>
+        <Button href="/location" startIcon={<LocationOnIcon />} variant="contained" sx={{bgcolor: "#464646", px: 2, borderRadius: 20, textTransform: 'none', fontSize: {md: 20, xs: 20}, justifyContent: 'space-evenly'}} fullWidth elevation={0}>
           Visit a Urban Loo
         </Button>
       </Box>

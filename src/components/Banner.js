@@ -1,8 +1,9 @@
 import Box from '@mui/material/Box'
 // import { VideoCard } from 'material-ui-player'
 import Button from '@mui/material/Button'
+import Link from 'next/link'
 
-export default function Component() {
+export default function Banner({banner}) {
   const buttonStyles = {
     borderRadius: 50,
     px: 8,
@@ -65,8 +66,12 @@ export default function Component() {
           }}
     >
       <Box sx={{pt: 30, display: 'flex', justifyContent: 'center', flexDirection: {md: 'row', sm: 'column', xs: 'column'}, alignItems: 'center'}}>
-        <Button size="large" variant="contained" sx={buttonStyles}>Learn More</Button>
-        <Button size="large" variant="contained" sx={buttonStyles}>Contact Us</Button>
+        <Link href="/#mission">
+          <Button size="large" variant="contained" sx={buttonStyles}>Learn More</Button>
+        </Link>
+        <Link href="/#contact">
+          <Button size="large" variant="contained" sx={buttonStyles}>Contact Us</Button>
+        </Link>
       </Box>
     </Box>
     </section>
