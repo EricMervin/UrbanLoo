@@ -1,7 +1,7 @@
 import Box from '@mui/material/Box'
 // import { VideoCard } from 'material-ui-player'
 import Button from '@mui/material/Button'
-
+import ReactPlayer from 'react-player'
 
 export default function Component() {
   const buttonStyles = {
@@ -15,18 +15,50 @@ export default function Component() {
     mt: {md: 0, sm: 3, xs: 3}
   }
   return (
+    <section>
+      <Box
+      sx={{
+        position:'relative',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+      }}>
+      <Box
+      sx={{
+        width: '100vw',
+        zIndex:-1,
+      }}>
+      <ReactPlayer
+        url="/hyd/video.mp4"
+        playing
+        loop
+        muted
+        width="100%"
+        height="100%"
+      />
+      <Box
+      sx={{
+        position: 'absolute',
+        marginTop: '-100vh',
+        background:'black',
+        opacity: 0.3,
+        width:'100vw',
+        height:'100vh',
+      }} />
+      </Box>
     <Box
       sx={{
             height: '95vh',
+            position: 'absolute',
             display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-            bgcolor: 'black',
-            background: 'url("/bannerImg.png"), rgba(0, 0, 0, 1)',
-            backgroundSize: {md: '100% 100%', sm: '200% 100%'},
+            // bgcolor: 'black',
+            flexDirection: 'column',
+            // background: 'url("/bannerImg.png"), rgba(0, 0, 0, 1)',
+            // backgroundSize: {md: '100% 100%', sm: '200% 100%'},
             backgroundPosition: 'center',
           }}
     >
+
       {/* <video autoplay loop muted
       style={{
         height: '100vh',
@@ -35,11 +67,12 @@ export default function Component() {
       >
           <source src="/hyd/video.mp4" type="video/mov" />
       </video> */}
-
-      <Box sx={{pt: 30, display: 'flex', justifyContent: 'center', flexDirection: {md: 'row', sm: 'column', xs: 'column'}, alignItems: 'center'}}>
+      <Box sx={{marginTop: '30vh',pt: 30, display: 'flex', justifyContent: 'center', flexDirection: {md: 'row', sm: 'column', xs: 'column'}, alignItems: 'center'}}>
         <Button size="large" variant="contained" sx={buttonStyles}>Learn More</Button>
         <Button size="large" variant="contained" sx={buttonStyles}>Contact Us</Button>
       </Box>
     </Box>
+    </Box>
+    </section>
   )
 }

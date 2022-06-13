@@ -21,6 +21,7 @@ export default function About() {
           <img src="/aboutPaths.png" width={matches? "100%" : "300%"}/>
         </Box>
       </Box>
+
       <Box sx={{p: 5, width: {md: '70%', sm: '100%', xs: '100%'}}}>
         <Typography variantt="body2" sx={{lineHeight: 1.5, fontSize: 15}}>
           Toilets & Toilet Pvt Ltd has been incorporated in 2001  with aim and object to  bring a desired paradigm shift in the way public toilets were perceived and planned in its designing and execution . We are working in Ahmedabad , Kolkata , Hyderabad , Vijayawada , Vizag , Coimbatore , Mumbai , Uttar Pradesh , Uttarakhand and NCR .
