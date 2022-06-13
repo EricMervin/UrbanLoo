@@ -22,11 +22,13 @@ export default function Component() {
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
+        height: '95vh'
       }}>
       <Box
       sx={{
         width: '100vw',
-        zIndex:-1,
+        height: '100vh',
+        zIndex:'-1',
       }}>
       <ReactPlayer
         url="/hyd/video.mp4"
@@ -35,6 +37,9 @@ export default function Component() {
         muted
         width="100%"
         height="100%"
+        style={{
+          objectFit: 'cover'
+        }}
       />
       <Box
       sx={{
@@ -46,11 +51,15 @@ export default function Component() {
         height:'100vh',
       }} />
       </Box>
+    </Box>
     <Box
       sx={{
             height: '95vh',
-            position: 'absolute',
             display: 'flex',
+            marginTop: '-95vh',
+            alignItems: 'center',
+            justifyContent: 'center',
+            zIndex: 1,
             // bgcolor: 'black',
             flexDirection: 'column',
             // background: 'url("/bannerImg.png"), rgba(0, 0, 0, 1)',
@@ -67,11 +76,10 @@ export default function Component() {
       >
           <source src="/hyd/video.mp4" type="video/mov" />
       </video> */}
-      <Box sx={{marginTop: '35vh',pt: 30, display: 'flex', justifyContent: 'center', flexDirection: {md: 'row', sm: 'column', xs: 'column'}, alignItems: 'center'}}>
+      <Box sx={{pt: 30, display: 'flex', justifyContent: 'center', flexDirection: {md: 'row', sm: 'column', xs: 'column'}, alignItems: 'center'}}>
         <Button size="large" variant="contained" sx={buttonStyles}>Learn More</Button>
         <Button size="large" variant="contained" sx={buttonStyles}>Contact Us</Button>
       </Box>
-    </Box>
     </Box>
     </section>
   )
