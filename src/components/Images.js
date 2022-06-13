@@ -51,54 +51,66 @@ const imgData = [
     des:"/hyd/ubl-11.jpg",
     description: "this is some text for this picture"
   },
-  // {
-  //   des:"/hyd/ubl-12.jpg",
-  //   description: "this is some text for this picture"
-  // },
-  // {
-  //   des:"/hyd/ubl-13.jpg",
-  //   description: "this is some text for this picture"
-  // },
-  // {
-  //   des:"/hyd/ubl-14.jpg",
-  //   description: "this is some text for this picture"
-  // },
-  // {
-  //   des:"/hyd/ubl-15.jpg",
-  //   description: "this is some text for this picture"
-  // },
-  // {
-  //   des:"/hyd/ubl-16.jpg",
-  //   description: "this is some text for this picture"
-  // },
-  // {
-  //   des:"/hyd/ubl-17.jpg",
-  //   description: "this is some text for this picture"
-  // },
-  // {
-  //   des:"/hyd/ubl-18.jpg",
-  //   description: "this is some text for this picture"
-  // },
-  // {
-  //   des:"/hyd/ubl-19.jpg",
-  //   description: "this is some text for this picture"
-  // },
-  // {
-  //   des:"/hyd/ubl-20.jpg",
-  //   description: "this is some text for this picture"
-  // },
-  // {
-  //   des:"/hyd/ubl-21.jpg",
-  //   description: "this is some text for this picture"
-  // },
-  // {
-  //   des:"/hyd/ubl-22.jpg",
-  //   description: "this is some text for this picture"
-  // },
-  // {
-  //   des:"/hyd/ubl-23.jpg",
-  //   description: "this is some text for this picture"
-  // }
+  {
+    des:"/hyd/ubl-12.jpg",
+    description: "this is some text for this picture"
+  },
+  {
+    des:"/hyd/ubl-13.jpg",
+    description: "this is some text for this picture"
+  },
+  {
+    des:"/hyd/ubl-14.jpg",
+    description: "this is some text for this picture"
+  },
+  {
+    des:"/hyd/ubl-15.jpg",
+    description: "this is some text for this picture"
+  },
+  {
+    des:"/hyd/ubl-16.jpg",
+    description: "this is some text for this picture"
+  },
+  {
+    des:"/hyd/ubl-17.jpg",
+    description: "this is some text for this picture"
+  },
+  {
+    des:"/hyd/ubl-18.jpg",
+    description: "this is some text for this picture"
+  },
+  {
+    des:"/hyd/ubl-19.jpg",
+    description: "this is some text for this picture"
+  },
+  {
+    des:"/hyd/ubl-20.jpg",
+    description: "this is some text for this picture"
+  },
+  {
+    des:"/hyd/ubl-21.jpg",
+    description: "this is some text for this picture"
+  },
+  {
+    des:"/hyd/ubl-22.jpg",
+    description: "this is some text for this picture"
+  },
+  {
+    des:"/hyd/ubl-23.jpg",
+    description: "this is some text for this picture"
+  },
+  {
+    des:"/hyd/ubl-24.jpg",
+    description: "this is some text for this picture"
+  },
+  {
+    des:"/hyd/ubl-25.jpg",
+    description: "this is some text for this picture"
+  },
+  {
+    des:"/hyd/ubl-26.jpg",
+    description: "this is some text for this picture"
+  },
 ];
 
 export default function MasonryImageList() {

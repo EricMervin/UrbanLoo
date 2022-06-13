@@ -9,7 +9,6 @@ import News from '../src/components/News'
 import Contact from '../src/components/Contact'
 import Footer from '../src/components/Footer'
 import TopBar from '../src/components/TopBar'
-import ReactPlayer from 'react-player';
 
 export default function Index() {
   return (

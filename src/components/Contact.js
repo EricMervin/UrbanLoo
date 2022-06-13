@@ -20,7 +20,7 @@ export default function Contact({ id }) {
       <Typography variant="h6" sx={{textTransform: 'capitalize', color: "#A8A8A8", fontWeight: 200, mb: 6}}>
         Mordernizing India <strong>Together</strong>
       </Typography>
-      <Box sx={{my: 5, width: {md: '30%', sm: '90%', xs: '100%'} }}>
+      <Box sx={{my: 3, width: {md: '30%', sm: '90%', xs: '100%'} }}>
         <Button startIcon={<MailOutlineIcon />} variant="contained" sx={{bgcolor: "#464646", px: 2, borderRadius: 20, textTransform: 'none', fontSize: {md: 20, xs: 20}, justifyContent: 'space-evenly'}} fullWidth elevation={0}>
           contact@urbanloo.com
         </Button>
