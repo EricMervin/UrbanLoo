@@ -65,14 +65,14 @@ export default function Banner({banner}) {
             backgroundPosition: 'center',
           }}
     >
-      <Box sx={{mb: -15, pt: 30, display: 'flex', justifyContent: 'center', flexDirection: {md: 'row', sm: 'column', xs: 'column'}, alignItems: 'center'}}>
+      {/* <Box sx={{mb: -15, pt: 30, display: 'flex', justifyContent: 'center', flexDirection: {md: 'row', sm: 'column', xs: 'column'}, alignItems: 'center'}}>
         <Link href="/#mission">
           <Button size="large" variant="contained" sx={buttonStyles}>Learn More</Button>
         </Link>
         <Link href="/#contact">
           <Button size="large" variant="contained" sx={buttonStyles}>Contact Us</Button>
         </Link>
-      </Box>
+      </Box> */}
     </Box>
     </section>
   )
