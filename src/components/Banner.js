@@ -1,6 +1,7 @@
 import Box from '@mui/material/Box'
 // import { VideoCard } from 'material-ui-player'
 import Button from '@mui/material/Button'
+import Typography from '@mui/material/Typography'
 import Link from 'next/link'
 
 export default function Banner({banner}) {
@@ -44,7 +45,7 @@ export default function Banner({banner}) {
         position: 'absolute',
         marginTop: '-100vh',
         background:'black',
-        opacity: 0.3,
+        opacity: 0.42,
         width:'100vw',
         height:'100vh',
       }} />
@@ -65,14 +66,16 @@ export default function Banner({banner}) {
             backgroundPosition: 'center',
           }}
     >
-      {/* <Box sx={{mb: -15, pt: 30, display: 'flex', justifyContent: 'center', flexDirection: {md: 'row', sm: 'column', xs: 'column'}, alignItems: 'center'}}>
-        <Link href="/#mission">
+      <Box sx={{mb: {md: -60, sm: -50, xs: -50}, pt: 30, display: 'flex', justifyContent: 'center', flexDirection: {md: 'row', sm: 'row', xs: 'row'}, alignItems: 'center'}}>
+        {/* <Link href="/#mission">
           <Button size="large" variant="contained" sx={buttonStyles}>Learn More</Button>
         </Link>
         <Link href="/#contact">
           <Button size="large" variant="contained" sx={buttonStyles}>Contact Us</Button>
-        </Link>
-      </Box> */}
+        </Link> */}
+        <Typography variant={"h6"} sx={{fontWeight: 200, color: 'white', fontSize: {md: 33, sm: 22.5, xs: 22.5}, paddingRight:{md:2, sm: 1, xs: 1}}}>Scroll down to learn more</Typography>
+        <Box component="span" sx={{height: {md: 80, xs: '48px'}, display: 'flex', alignItems: 'center', }}><img src="dArrow.png" height="100%"/></Box>
+      </Box>
     </Box>
     </section>
   )
