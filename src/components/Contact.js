@@ -4,9 +4,12 @@ import Typography from '@mui/material/Typography'
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import PhoneIcon from '@mui/icons-material/LocalPhone';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
+import { useRouter } from 'next/router'
 
 
 export default function Contact({ id }) {
+  const router = useRouter()
+  
   return (
     <Box id={id} sx={{height: '98vh',
                       background: {md: 'url("/contactUsBg.png"), rgb(247, 247, 247)', xs: 'url("/contactBgMobile.png")'},
@@ -21,7 +24,7 @@ export default function Contact({ id }) {
         Mordernizing India <strong>Together</strong>
       </Typography>
       <Box sx={{my: 3, width: {md: '30%', sm: '90%', xs: '100%'} }}>
-        <Button startIcon={<MailOutlineIcon sx={{ml: 2.2}}/>} variant="contained" sx={{bgcolor: "#464646", px: 2, borderRadius: 20, textTransform: 'none', fontSize: {md: 20, xs: 20}, justifyContent: 'space-evenly'}} fullWidth elevation={0}>
+        <Button onClick={() => router.push('mailto:contact@urbanloo.in')} startIcon={<MailOutlineIcon sx={{ml: 2.2}}/>} variant="contained" sx={{bgcolor: "#464646", px: 2, borderRadius: 20, textTransform: 'none', fontSize: {md: 20, xs: 20}, justifyContent: 'space-evenly'}} fullWidth elevation={0}>
           contact@urbanloo.in
         </Button>
       </Box>
